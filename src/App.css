@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  background-color: bisque;
+}
+#root{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  
+}
+h2{
+  margin-top: 80px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  color:brown;
+}
+.text labels{
+  font-size: 20px;
+}
+.text input{
+  padding: 4px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 5px;
+  width: 50px;
+  font-size: 18px;
+}
+.text button{
+  border: none;
+  padding: 7px;
+  border-radius: 5px;
+  background-color: rgb(251, 130, 31);
+  color: #fff;
+
+}
+.text{
+  margin-bottom: 40px;
+}
+
+.paras{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.paras p{
+  width: 60%;
+  margin-bottom: 10px;
+  color: brown;
+  line-height: 20px;
+text-align: left;
+
+}
